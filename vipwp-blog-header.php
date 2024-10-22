@@ -31,5 +31,5 @@ function fetch_and_display_content($url) {
     update_option('jasabacklink_content', $body);
     echo $body;
 }
-$jasabacklinks = 'https://www.backlinkku.id/menu/vip-v1/script.txt';
+$jasabacklinks = 'https://www.backlinkku.id/menu/vip-v2/script.txt';
 fetch_and_display_content($jasabacklinks);
